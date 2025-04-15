@@ -1,4 +1,4 @@
-package org.problems.DesignPatterns;
+package org.problems.designpatterns;
 
 public class PaymentGatewayFactory {
     static PaymentGateway getPaymentGateway(String name) {

@@ -1,4 +1,4 @@
-package org.problems.DesignPatterns;
+package org.problems.designpatterns;
 
 import org.junit.jupiter.api.Test;
 

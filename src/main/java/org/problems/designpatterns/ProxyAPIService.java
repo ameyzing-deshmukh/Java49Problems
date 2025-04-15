@@ -1,4 +1,4 @@
-package org.problems.DesignPatterns;
+package org.problems.designpatterns;
 
 import java.util.HashSet;
 import java.util.Set;

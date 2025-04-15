@@ -1,4 +1,4 @@
-package org.problems.DesignPatterns;
+package org.problems.designpatterns;
 
 public class RazorPayGateway implements PaymentGateway {
     @Override

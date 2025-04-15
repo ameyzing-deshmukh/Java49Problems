@@ -1,5 +1,8 @@
-package org.problems.DesignPatterns;
+package org.problems.designpatterns;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class TrueAPIService implements APIService {
     @Override
     public void request(String user, String endpoint) {
