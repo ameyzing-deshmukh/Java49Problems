@@ -1,6 +1,10 @@
 package org.problems.designpatterns;
 
 import org.junit.jupiter.api.Test;
+import org.problems.designpatterns.factory.PaymentGateway;
+import org.problems.designpatterns.factory.PaymentGatewayFactory;
+import org.problems.designpatterns.factory.PaypalGateway;
+import org.problems.designpatterns.factory.RazorPayGateway;
 
 import static org.junit.jupiter.api.Assertions.*;
 

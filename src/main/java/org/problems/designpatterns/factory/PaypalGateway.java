@@ -1,4 +1,4 @@
-package org.problems.designpatterns;
+package org.problems.designpatterns.factory;
 
 public class PaypalGateway implements PaymentGateway {
     @Override
