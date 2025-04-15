@@ -1,4 +1,4 @@
-package org.problems.designpatterns;
+package org.problems.designpatterns.proxy;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,7 +7,7 @@ public class ProxyAPIService implements APIService {
     TrueAPIService trueAPIService = new TrueAPIService();
     private final Set<String> authenticatedUsers = new HashSet<>();
 
-    ProxyAPIService() {
+    public ProxyAPIService() {
         authenticatedUsers.add("amey");
         authenticatedUsers.add("vijay");
     }

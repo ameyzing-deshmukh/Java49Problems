@@ -1,4 +1,4 @@
-package org.problems.designpatterns;
+package org.problems.designpatterns.proxy;
 
 import org.springframework.stereotype.Service;
 
