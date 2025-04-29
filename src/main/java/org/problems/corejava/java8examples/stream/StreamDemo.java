@@ -10,48 +10,46 @@ import java.util.stream.Stream;
 
 public class StreamDemo {
     public static void main(String[] args) {
-        //1. Separate odd and even numbers
 
-//        separateOddEvenInMap();
-//        countOccurances();
-//        sortInReverse();
-//        printMultiplesOfFive();
-//        mergeNSortArrays();
-//        mergeSortNDistinctArray();
-        //Three Max & Min Numbers From The List
-//        threeMaxNMinFromList();
-//        sortByStringLength();
-        //Sum & Average Of All Elements Of An Array
-//        sumNAvgOfArrayElement();
-//        reverseIntegerArray();
-//        Palindrome Program In Java 8
-//        checkPalindrome();
-//        getLastElementOfArray();
-//        findAgeInYears();
-//        removeDuplicatesFromList();
-//        frequencyOfEachElementInArray();
-//        joinStringsWithExtraStrings();
-//        findMaxMin();
-//        findIfStringsAreAnagrams();
-//        sumOfDigitInANumber();
-//        secondLargestNumberInArray();
-//        commonValuesBetweenTwoArrays();
-//        reverseEachWordOfString();
-//        sumOf10NaturalNumbers();
-//        stringStartingWithNumber();
-//        listDuplicateNumbers();
-//        fibonacciSeries();
-//        findFirstElement();
-
-
-//        Given a String, find the first non-repeated character in it using Stream functions?
-//        Given a String, find the first repeated character in it using Stream functions?
-//        Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
-//        How will you get the current date and time using Java 8 Date and Time API?
-//        Write a Java 8 program to concatenate two Streams?
-//        Write a Java 8 program to sort an array and then convert the sorted array into Stream?
-//        How to convert a List of objects into a Map by considering duplicated keys and store them in sorted order?
-//        How to check if list is empty in Java 8 using Optional, if not null iterate through the list and print the object?
+//        1. Separate odd and even numbers
+//        2. separateOddEvenInMap();
+//        3. countOccurances();
+//        4. sortInReverse();
+//        5. printMultiplesOfFive();
+//        6. mergeNSortArrays();
+//        7. mergeSortNDistinctArray();
+//        8. Three Max & Min Numbers From The List
+//        9. threeMaxNMinFromList();
+//        10. sortByStringLength();
+//        11. Sum & Average Of All Elements Of An Array
+//        12. sumNAvgOfArrayElement();
+//        13. reverseIntegerArray();
+//        14. Palindrome Program In Java 8
+//        15. checkPalindrome();
+//        16. getLastElementOfArray();
+//        17. findAgeInYears();
+//        18. removeDuplicatesFromList();
+//        19. frequencyOfEachElementInArray();
+//        20. joinStringsWithExtraStrings();
+//        21. findMaxMin();
+//        22. findIfStringsAreAnagrams();
+//        23. sumOfDigitInANumber();
+//        24. secondLargestNumberInArray();
+//        25. commonValuesBetweenTwoArrays();
+//        26. reverseEachWordOfString();
+//        27. sumOf10NaturalNumbers();
+//        28. stringStartingWithNumber();
+//        29. listDuplicateNumbers();
+//        30. fibonacciSeries();
+//        31. findFirstElement();
+//        32. Given a String, find the first non-repeated character in it using Stream functions?
+//        33. Given a String, find the first repeated character in it using Stream functions?
+//        34. Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+//        35. How will you get the current date and time using Java 8 Date and Time API?
+//        36. Write a Java 8 program to concatenate two Streams?
+//        37. Write a Java 8 program to sort an array and then convert the sorted array into Stream?
+//        38. How to convert a List of objects into a Map by considering duplicated keys and store them in sorted order?
+//        39. How to check if list is empty in Java 8 using Optional, if not null iterate through the list and print the object?
     }
 
 
