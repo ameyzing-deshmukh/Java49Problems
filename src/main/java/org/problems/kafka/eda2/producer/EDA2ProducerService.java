@@ -17,6 +17,5 @@ public class EDA2ProducerService {
     public void send(String message){
         kafkaTemplate.send(EDA_2_TOPIC, message);
         kafkaTemplate.send(EDA_2_SECOND_TOPIC, message+message);
-
     }
 }
