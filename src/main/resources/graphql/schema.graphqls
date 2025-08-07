@@ -1,0 +1,13 @@
+type BookEntity{
+    bookId: ID
+    name: String
+    cost: Int
+}
+
+type Query{
+    books:[BookEntity]
+}
+
+type Mutation{
+    addABook(name: String!, cost: Int!): BookEntity
+}

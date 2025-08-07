@@ -14,11 +14,12 @@ public class BookService {
     @Autowired
     private BookRepository bookRepo;
 
-    public Long saveBook(Book book){
-        return bookRepo.save(new BookEntity(book.getName(), book.getCost())).getBookId();
-    }
-
     public List<BookEntity> getAllBooks(){
        return bookRepo.findAll();
+    }
+
+
+    public BookEntity addBook(String name, Integer cost) {
+        return bookRepo.save(new BookEntity(name, cost));
     }
 }

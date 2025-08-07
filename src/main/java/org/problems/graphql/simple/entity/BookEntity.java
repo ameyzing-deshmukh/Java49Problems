@@ -5,11 +5,13 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
 @Data
 @Entity
+@NoArgsConstructor
 public class BookEntity {
 
     @Id
@@ -17,9 +19,9 @@ public class BookEntity {
     private Long bookId;
 
     private String name;
-    private BigDecimal cost;
+    private Integer cost;
 
-    public BookEntity(String name, BigDecimal cost) {
+    public BookEntity(String name, Integer cost) {
         this.name = name;
         this.cost = cost;
     }

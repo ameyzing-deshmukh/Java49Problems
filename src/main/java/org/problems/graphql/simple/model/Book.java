@@ -7,5 +7,5 @@ import java.math.BigDecimal;
 @Data
 public class Book {
     private String name;
-    private BigDecimal cost;
+    private Integer cost;
 }
