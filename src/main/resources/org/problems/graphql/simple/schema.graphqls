@@ -1,0 +1,14 @@
+type BookEntity{
+    id:ID
+    name:String
+    cost:Int
+    author:String
+}
+
+type Query{
+    getAllBooks: [BookEntity]
+}
+
+type Mutation{
+    saveBook(name:String!, cost:Int!, author:String!): BookEntity
+}
